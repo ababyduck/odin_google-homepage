@@ -3,7 +3,11 @@ body {
 }
 
 #main {
-  margin-top: 22%;
+  width: 100%;
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #search-field input {
@@ -11,11 +15,11 @@ body {
   border-radius: 2em;
   padding: 1em;
   margin: 2em 0em 2em 0em;
-  width: 54%;
+  width: 480px;
 }
 
 #search-field input:focus {
-  box-shadow: 0px 3px 4px lightgray;
+  box-shadow: 0px 1px 5px lightgray;
 }
 
 #submit-buttons input {
