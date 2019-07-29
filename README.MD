@@ -7,7 +7,7 @@ This repo is my approach to an assignment from [The Odin Project](http://www.the
 ### CSS positioning techniques
 
 - Vertical centering of the "main" content is achieved through absolute positioning and translation.
-- Top and bottom bars are given fixed positions,
+- Top and bottom bars are placed by giving them `position: fixed` and definining the `top` and/or `bottom` properties. [Further reference here](https://www.w3schools.com/css/css_positioning.asp)
 - Top and bottom bar links are written as unordered lists and floated to the left and right, allowing links on both sides of the bar.
 
 ### Fontawesome is a lot less awesome now.
