@@ -71,13 +71,13 @@ i:hover {
 #search-field input {
   border: 1px solid #dfe1e5;
   border-radius: 2em;
-  padding: 1em;
+  padding: 1.1em 1.5em;
   margin: 2em 0em 2em 0em;
   width: 580px;
 }
 
 #search-field input:focus, input:hover {
-  box-shadow: 0px 1px 5px #dfe1e5;
+  box-shadow: 0px 1px 5px lightgray;
 }
 
 #submit-buttons input {
