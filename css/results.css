@@ -1,0 +1,62 @@
+body {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  color: #545454;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover .underline {
+  text-decoration: underline;
+}
+
+.large {
+  font-size: 18px;
+}
+
+.small {
+  font-size: small;
+}
+
+.smaller {
+  font-size: smaller;
+}
+
+.xx-small {
+  font-size: xx-small;
+}
+
+.blue {
+  color: #1a0dab;
+}
+
+.green {
+  color: #006621;
+}
+
+.gray {
+  color: #777;
+}
+
+.darkgray {
+  color: #545454;
+}
+
+.hstretch {
+  display: inline-block;
+  vertical-align: middle;
+  transform: scaleX(1.5);
+  transform-origin: 0 0;
+} 
+
+.ell {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#results-info {
+  margin: 0 0 15px 0;
+}
