@@ -4,112 +4,130 @@
     <link rel="stylesheet" type="text/css" href="css/results.css" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <meta charset="utf-8"/>
+    <script src="https://kit.fontawesome.com/440ad5062b.js"></script>
   </head>
   <body>
 
-    <div class="small">
-      About 252,000 results (0.41 seconds)
+    <div class="headerbar">
+      <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" width="92" height="30">
+      <input type="text">
     </div>
 
-    <div class="topmargin">
-      <a href="#">
-        <div class="large blue underline">
-          Example Title
-        </div>
-        <span class="green ell">
-          https://example.url/long-directory-path/...
-        </span>
-      </a>
-      <span class="xx-small green hstretch">
-        &#9660; <!-- unicode char: downward facing triangle -->
-      </span>
-      <div>
-        <span class="small gray">July 31, 2019 - </span>
-        <span class="small ell">Description of the result goes here.</span>
+    <div class="bigleftmargin small">
+      <ul>
+        <li><a href="#"><i class="fas fa-search"></i> All</a></li>
+        <li><a href="#"><i class="far fa-image"></i> Images</a></li>
+        <li><a href="#"><i class="far fa-newspaper"></i> News</a></li>
+        <li><a href="#"><i class="fab fa-youtube"></i> Videos</a></li>
+        <li><a href="#"><i class="fas fa-shopping-cart"></i> Shopping</a></li>
+        <li><a href="#"><i class="fas fa-ellipsis-v"></i> More</a></li>
+      </ul>
+    </div>
+    <hr class="gray">
+
+    <div class="bigleftmargin">
+
+      <div class="small">
+        About 252,000 results (0.41 seconds)
       </div>
+
+      <div class="topmargin">
+        <a href="#">
+          <div class="large blue underline">
+            Example Title
+          </div>
+          <span class="green ell">
+            https://example.url/long-directory-path/...
+          </span>
+        </a>
+        <span class="xx-small green hstretch">
+          &#9660; <!-- unicode char: downward facing triangle -->
+        </span>
+        <div>
+          <span class="small gray">July 31, 2019 - </span>
+          <span class="small ell">Description of the result goes here.</span>
+        </div>
+      </div>
+
+      <div id="related" class="topmargin">
+        <h3 class="darkergray">Searches related to example query</h3>
+        <table>
+          <tr>
+            <td>
+              <a href="#">test query</a>
+            </td>
+            <td>
+              <a href="#">example search</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#">how did i get here</a>
+            </td>
+            <td>
+              <a href="#">i am not good with computers</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#">email grandma</a>
+            </td>
+            <td>
+              <a href="#">big black divs</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#">what is love</a>
+            </td>
+            <td>
+              <a href="#">baby don't hurt me</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="topmargin">
+        <table id="more">
+          <tr>
+            <td class="small g"></td>
+            <td class="small red-o">
+              1
+            </td>
+            <td class="small yellow-o">
+              <a href="#">2</a>
+            </td>
+            <td class="small yellow-o">
+              <a href="#">3</a>
+            </td>
+            <td class="small yellow-o">
+              <a href="#">4</a>
+            </td>
+            <td class="small yellow-o">
+              <a href="#">5</a>
+            </td>
+            <td class="small yellow-o">
+              <a href="#">6</a>
+            </td>
+            <td class="small yellow-o">
+              <a href="#">7</a>
+            </td>
+            <td class="small yellow-o">
+              <a href="#">8</a>
+            </td>
+            <td class="small yellow-o">
+              <a href="#">9</a>
+            </td>
+            <td class="small yellow-o">
+              <a href="#">10</a>
+            </td>
+            <td class="small gle">
+              <a href="#">Next</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+
     </div>
-
-
-    <div id="related" class="topmargin">
-      <h3 class="darkergray">Searches related to example query</h3>
-      <table>
-        <tr>
-          <td>
-            <a href="#">test query</a>
-          </td>
-          <td>
-            <a href="#">example search</a>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <a href="#">how did i get here</a>
-          </td>
-          <td>
-            <a href="#">i am not good with computers</a>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <a href="#">email grandma</a>
-          </td>
-          <td>
-            <a href="#">big black divs</a>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <a href="#">what is love</a>
-          </td>
-          <td>
-            <a href="#">baby don't hurt me</a>
-          </td>
-        </tr>
-      </table>
-    </div>
-
-
-    <div class="topmargin">
-      <table id="more">
-        <tr>
-          <td class="small g"></td>
-          <td class="small red-o">
-            1
-          </td>
-          <td class="small yellow-o">
-            <a href="#">2</a>
-          </td>
-          <td class="small yellow-o">
-            <a href="#">3</a>
-          </td>
-          <td class="small yellow-o">
-            <a href="#">4</a>
-          </td>
-          <td class="small yellow-o">
-            <a href="#">5</a>
-          </td>
-          <td class="small yellow-o">
-            <a href="#">6</a>
-          </td>
-          <td class="small yellow-o">
-            <a href="#">7</a>
-          </td>
-          <td class="small yellow-o">
-            <a href="#">8</a>
-          </td>
-          <td class="small yellow-o">
-            <a href="#">9</a>
-          </td>
-          <td class="small yellow-o">
-            <a href="#">10</a>
-          </td>
-          <td class="small gle">
-            <a href="#">Next</a>
-          </td>
-        </tr>
-      </table>
-    </div>
-
-
   </body>
 </html>
