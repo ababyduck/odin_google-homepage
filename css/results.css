@@ -38,6 +38,10 @@ h3 {
   color: #1a0dab;
 }
 
+.lightblue {
+  color: #1A73E8;
+}
+
 .green {
   color: #006621;
 }
@@ -80,7 +84,7 @@ h3 {
   padding: 0;
   background-image: url(../images/nav_logo299.png);
   background-repeat: no-repeat;
-  height: 40px;
+  height: 45px;
   overflow: hidden;
 }
 
@@ -145,20 +149,18 @@ ul a:hover {
 }
 
 .headerbar {
-  display: flex;
-  vertical-align: middle;
-  margin: 25px 20px;
+  margin: 20px 20px;
 }
 
 .headerbar input {
   height: 45px;
-  width: 630px;
+  width: 640px;
   border: 1px solid #dfe1e5;
   border-radius: 2em;
   padding: 0.8em 1.1em;
   font-size: 12pt;
   font-weight: lighter;
-  margin-left: 35px;
+  margin-left: 30px;
 }
 
 .footerbar {
@@ -167,4 +169,12 @@ ul a:hover {
   bottom: 0;
   background-color: #f2f2f2;
   border-top: 1px solid #e4e4e4;
+}
+
+input:hover {
+  box-shadow: 0 1px 7px #e4e4e4;
+}
+
+img {
+  vertical-align: middle;
 }
