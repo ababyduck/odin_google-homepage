@@ -13,6 +13,10 @@ a:hover .underline {
   text-decoration: underline;
 }
 
+h3 {
+  font-weight: normal;
+}
+
 .large {
   font-size: 18px;
 }
@@ -45,6 +49,10 @@ a:hover .underline {
   color: #545454;
 }
 
+.darkergray {
+  color: #4b2222;
+}
+
 .hstretch {
   display: inline-block;
   vertical-align: middle;
@@ -57,6 +65,53 @@ a:hover .underline {
   text-overflow: ellipsis;
 }
 
-#results-info {
-  margin: 0 0 15px 0;
+.topmargin {
+  margin-top: 18px;
+}
+
+#more {
+  border-spacing: 0;
+}
+
+#more td {
+  text-align: center;
+  vertical-align: bottom;
+  padding: 0;
+  background-image: url(../images/nav_logo299.png);
+  background-repeat: no-repeat;
+  height: 40px;
+  overflow: hidden;
+}
+
+.g {
+  background-position: -24px 0;
+  width: 28px;
+}
+
+.red-o {
+  background-position: -53px 0;
+  width: 20px;
+}
+
+.yellow-o {
+  background-position: -74px 0;
+  width: 20px;
+}
+
+.gle {
+  background-position: -96px 0;
+  width: 71px;
+  text-align: right !important;
+}
+
+#related {
+  margin: 40px 0 30px 0;
+}
+
+#related td {
+  padding-right: 30px;
+}
+
+#related a {
+  font-size: 11pt;
 }
