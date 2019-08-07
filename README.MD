@@ -16,4 +16,16 @@ Apparently the fontawesome CDN now requires even free users to register an accou
 
 ### `box-shadow` can have unintended results on elements scaled with `transform`.
 
-After applying `transform: translate()` to the div containing the search bar, the `box-shadow` on the text input had an unintended single-pixel gap between the element itself and its shadow. In other words, the shadow was drawn in the wrong position. This was resolved by [modifying the size of the input itself](ababyduck/odin_google-homepage@34b84f2).
+After applying `transform: translate()` to the div containing the search bar, the `box-shadow` on the text input had an unintended single-pixel gap between the element itself and its shadow. In other words, the shadow was drawn in the wrong position. This was resolved *only on some displays* by [modifying the size of the input itself](ababyduck/odin_google-homepage@34b84f2).
+
+### Image mapping
+
+When I tried to grab the image link for the "Goooooooooogle" nav I quickly realized that Google uses an interesting technique here. Rather than having multiple images for each letter, they use a single image with all logos and UI elements and just map the positions of the parts they want to use, similar to spritesheets in a 2D video game. While this approach is a little less intuitive to set up, it's more maintainable in that updating that image is all that's needed to completely reskin the site's image elements.
+
+### Scalable Vector Graphics as inline code
+
+Google uses SVG paths defined directly in the html code to achieve their glyph icons. Copying those felt like cheating, so I used FontAwesome instead, but it's definitely a nice feature to have.
+
+### Weird inconsistencies with vertical alignment
+
+Images don't respect the `vertical-align` property of their parent div, and must instead have their own `vertical-align` defined.
