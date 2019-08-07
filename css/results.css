@@ -118,7 +118,7 @@ h3 {
 }
 
 .bigleftmargin {
-  margin-left: 130px;
+  margin-left: 165px;
 }
 
 ul {
@@ -132,7 +132,7 @@ li {
 
 hr {
   height: 1px;
-  background-color: lightgray;
+  background-color: #ebebeb;
   border: none;
 }
 
@@ -151,12 +151,20 @@ ul a:hover {
 }
 
 .headerbar input {
-  height: 40px;
-  width: 500px;
+  height: 45px;
+  width: 630px;
   border: 1px solid #dfe1e5;
   border-radius: 2em;
   padding: 0.8em 1.1em;
   font-size: 12pt;
   font-weight: lighter;
-  margin-left: 10px;
+  margin-left: 35px;
+}
+
+.footerbar {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
 }
