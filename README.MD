@@ -1,6 +1,6 @@
 # google-homepage
 
-This repo is my approach to an assignment from [The Odin Project](http://www.theodinproject.com/courses/web-development-101/lessons/html-css). The goal is to recreate Google's home and search results pages without examining their source code.
+This repo is my approach to an assignment from [The Odin Project](http://www.theodinproject.com/courses/web-development-101/lessons/html-css). The goal is to use HTML and CSS to recreate the general look and feel of Google's home and search results pages, ideally without directly examining their source code.
 
 ## What I learned
 
